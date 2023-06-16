@@ -1,0 +1,61 @@
+/* Write your CSS code here */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nxt-img {
+  width: 110px;
+}
+.nav-menu {
+  display: flex;
+  list-style: none;
+  margin-right: 12px;
+  color: #475569;
+  font-size: 18px;
+  font-weight: 400;
+}
+@media screen and (max-width: 767px) {
+  .nav-menu {
+    display: none;
+  }
+}
+.nav-link {
+  text-decoration: none;
+  margin: 15px;
+}
+.logout-icon {
+  width: 25px;
+}
+@media screen and (min-width: 768px) {
+  .logout-icon {
+    display: none;
+  }
+}
+.btn {
+  color: #fff;
+  background-color: #0967d2;
+  border: 0px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #e6f6ff;
+  min-width: 100%;
+  padding: 8px;
+  margin-top: 15px;
+  margin-left: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .icon-container {
+    display: none;
+  }
+}
+.icon {
+  width: 36px;
+}
